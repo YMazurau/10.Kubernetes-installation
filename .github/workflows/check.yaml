@@ -1,4 +1,4 @@
-name: Check Pod Status
+name: Check Pod Status v01
 
 on: workflow_dispatch
 
