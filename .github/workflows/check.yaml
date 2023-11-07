@@ -17,7 +17,7 @@ jobs:
         port: ${{ secrets.PORT }}
         proxy_host: ${{ secrets.BASTION_HOST }}
         proxy_username: ${{ secrets.BASTION_USERNAME }}
-        proxy_key: ${{ secrets.PROXY_KEY }}
+        proxy_key: ${{ secrets.PROXY_PASS }}
         proxy_port: ${{ secrets.BASTION_PORT }}
         script: |
           kubectl get pods -A >> output.log
